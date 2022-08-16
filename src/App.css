@@ -164,7 +164,7 @@ font-size: 1rem;
 
 
 
-/* CARD SECTION */
+/* PROJECTS SECTION */
 .card{
   background-color: var(--clr-netrual-dark-blue);
   display: flex;
@@ -339,7 +339,7 @@ font-size: 1rem;
   font-size: 1.2rem;
   font-weight: 300;
   color: var(--clr-primary);
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 @media screen and (min-width: 40em) {
@@ -352,32 +352,50 @@ font-size: 1rem;
   color: var(--clr-primary-light-blue);
 }
 
-.about-me__tech-stack-list{
+.about__techstack{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+
+.about__techstack > div{
   display: flex;
-  grid-gap:90px;
+  flex-direction: column;
+  justify-content:center;
+  /* align-items:center; */
 }
 
-@media screen and (min-width: 40em) {
-  .about-me__tech-stack-list{
-    display: flex;
-    grid-gap: 100px;
-  }
-}
-
-.about-me__tech-stack-list > ul{
-  list-style: none;
-}
-
-.about-me__tech-stack-list > ul > li{
-  padding-bottom: 50px;
-}
-
-.about-me__tech-stack-list > ul > li> ion-icon{
+.about__techstack > div> span > a> ion-icon{
+  display: flex;
+  align-items:center;
   vertical-align: middle;
-  font-size:1.5rem;
+  font-size:2rem;
   color: var(--clr-primary-light-blue);
 }
 
+.end-box{
+  margin-left: -2rem;
+}
+
+.sass-box{
+  margin-left: 0.5rem;
+}
+
+.markdown-box{
+ margin-left: -1rem;
+} 
+
+.netlify-box{
+  margin-left: -0.8rem;
+ } 
+
+.netlify-img{
+  display:block;
+  width: 2rem;
+  height: 2rem;
+  max-width: 100%;
+}
 
 /* CONTACT SECTION */
 .contact-sec{
