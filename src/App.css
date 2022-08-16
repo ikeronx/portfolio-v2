@@ -74,7 +74,13 @@ code {
 /* NAV BAR */
 
 .navbar-sec{
-  padding-bottom: 60px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 40em) {
+  .navbar-sec{
+    padding-bottom: 100px;
+  }
 }
 
 .nav__content{
@@ -108,15 +114,21 @@ code {
 .hero-sec{
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  height: 100vh; 
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 40em) {
+.hero-sec{
+  align-items: flex-start;
+}
 }
 
 .hero-heading{
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 80px;
-  padding-block: 20px;;
+  padding-block: 20px;
 }
 
 @media screen and (min-width: 40em) {
@@ -144,11 +156,13 @@ code {
 
 .hero__socials{
   display: flex;
-  grid-gap: 30px;
+ justify-content: center;
+ align-items: center;
   padding-top: 60px;
 }
 
 .hero__social{
+padding-right: 20px;
 font-size: 1rem;
 }
 
@@ -165,6 +179,10 @@ font-size: 1rem;
 
 
 /* PROJECTS SECTION */
+.projects-sec{
+  padding-top: 45px;
+}
+
 .card{
   background-color: var(--clr-netrual-dark-blue);
   display: flex;
@@ -194,7 +212,7 @@ font-size: 1rem;
   .card__figure{
     position: relative;
     padding-bottom: 100%;
-    width: 22rem;
+    width: 28.8rem;
     height: 23rem;
   } 
   .card__image{
@@ -213,9 +231,8 @@ font-size: 1rem;
   flex-direction: column;
   justify-content: center;
   background-color: #323a49;
-  padding: 0 30px 20px 30px;
+  padding: 10px 30px 20px 30px;
   border-radius: 0 0 5px 5px;
-  margin-top:-6px;
 }
 
 @media screen and (min-width: 40em) {
@@ -232,14 +249,13 @@ font-size: 1rem;
   justify-content: space-between;
   font-weight: 400;
   font-size: 12px;
-  padding-block: 15px;
 }
 
 @media screen and (min-width: 40em) {
   .card-textbox__country{
     font-size: 1rem;
     justify-content: space-between;
-    padding-block: 0;
+    /* padding-block: 0; */
   }
 }
 
@@ -284,7 +300,7 @@ font-size: 1rem;
 
 .card__description{
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 150%; 
   color: var(--clr-primary-light);
   padding-bottom: 20px;
@@ -292,7 +308,6 @@ font-size: 1rem;
 
 @media screen and (min-width: 40em) {
   .card__description{
-    font-size: 1.2rem;
     padding-bottom: 30px;
   }
 }
@@ -323,7 +338,12 @@ font-size: 1rem;
 .about-me__box{
   display: flex;
   flex-direction: column;
-  grid-gap: 3rem;
+
+}
+
+.about-me__box--one{
+  padding-right: 0;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 40em) {
@@ -333,6 +353,10 @@ font-size: 1rem;
   .about-me__box> *{
     flex: 1;
   } 
+  .about-me__box--one{
+    padding-right: 50px;
+    padding-bottom: 0;
+  }
 }
 
 .about-me__subtitle{
@@ -356,14 +380,13 @@ font-size: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: auto auto auto;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .about__techstack > div{
   display: flex;
   flex-direction: column;
   justify-content:center;
-  /* align-items:center; */
 }
 
 .about__techstack > div> span > a> ion-icon{
@@ -403,6 +426,7 @@ font-size: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 45px;
   padding-bottom: 100px;
 }
 

@@ -5,8 +5,8 @@ export const data = [
         location: "crud app",
         googleMapsUrl: "https://g.page/AhauTulum?share",
         description: "Five nights in Ahau Tulum, from the entrance - beautiful property. Wooden houses combined in a great beach climate with a lot of flowers and palms around was just a pleasure for eyes whenever we were around there.",
-        // imageUrl: "https://64.media.tumblr.com/6015ed75c3372c333364bc1103381525/059229452bf8c056-74/s2048x3072/354eadd12e15fc36a88ad09158ddbcdb7d7bc9e0.pnj",
-        imageUrl: "https://64.media.tumblr.com/7339f0b5fb80a4d82dad3dd7492679df/9ca5da3ed213f0bb-3b/s2048x3072/9437e1bab759f7cc917d744572435072a7a9ad7a.pnj",
+        imageUrl: "https://64.media.tumblr.com/6015ed75c3372c333364bc1103381525/059229452bf8c056-74/s2048x3072/354eadd12e15fc36a88ad09158ddbcdb7d7bc9e0.pnj",
+        // imageUrl: "https://64.media.tumblr.com/7339f0b5fb80a4d82dad3dd7492679df/9ca5da3ed213f0bb-3b/s2048x3072/9437e1bab759f7cc917d744572435072a7a9ad7a.pnj",
         tools: ['HTML5', 'CSS3', 'Javascript', 'React'],
     }, 
     {
