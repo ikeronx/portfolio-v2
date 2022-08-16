@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button, IconButton,} from '@chakra-ui/react'
+import { Button,} from '@chakra-ui/react'
 import { EmailIcon,  } from '@chakra-ui/icons'
 
 
 const Contact = () => {
   return (
-    <section className="container contact-sec heading-sec sec--pad">
+    <section className="container contact-sec sec--pad">
         <h2 className="heading-sec contact-heading">Get In Touch</h2>
         <div className="contact__btns">
               <Button

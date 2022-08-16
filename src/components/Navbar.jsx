@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <>
         <header className="navbar-sec"></header>
-            <nav className="nav container" aria-label="Main">
-                <div className = 'nav__content'>
+            <nav className="nav" aria-label="Main">
+                <div className = 'nav__content container'>
                     <div className="nav__logo">
                         <p>K/W</p>
                         {/* <img className="nav__globe-icon" src={globeIcon} alt="airbnb-logo" /> */}
@@ -35,7 +35,7 @@ const Navbar = () => {
                             </Button>
                     </div>
                 </div>
-                </nav>
+            </nav>
         <header className="navbar-sec"></header>
     </>
   )
