@@ -10,7 +10,7 @@ const ProjectsSection = () => {
             {...cardItem} />
     ))
   return (
-      <section className="container sec--pad">
+      <section id= 'projects' className="container sec--pad">
           <h2 className="heading-sec">Projects</h2>
           {cardElements}
       </section>

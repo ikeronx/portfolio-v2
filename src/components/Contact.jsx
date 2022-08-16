@@ -5,9 +5,10 @@ import { EmailIcon,  } from '@chakra-ui/icons'
 
 const Contact = () => {
   return (
-    <section className="container contact-sec sec--pad">
+    <section id='contact' className="container contact-sec sec--pad">
         <h2 className="heading-sec contact-heading">Get In Touch</h2>
-        <div className="contact__btns">
+          <div className="contact__btns">
+          <a href="mailto:ikeronw@gmail.com" target="_blank" >
               <Button
                         className="contact__btn"
                         onClick={() => showForm()} 
@@ -17,8 +18,10 @@ const Contact = () => {
                         _hover={{ bg: '#ffffff30', color: '#fff'}}
               >
                   Email
-              </Button>
+                  </Button>
+            </a>
               &nbsp;
+            <a href="https://www.linkedin.com/in/keron-williams/" target="_blank" >
               <Button
                         className="contact__btn"
                         onClick={() => showForm()} 
@@ -28,8 +31,10 @@ const Contact = () => {
                         _hover={{ bg: '#ffffff30', color: '#fff'}}
               >
                   LinkedIn
-                </Button>
+                  </Button>
+            </a>
               &nbsp;
+            <a href="https://github.com/ikeronx"  target="_blank" >
               <Button
                         className="contact__btn"
                         onClick={() => showForm()} 
@@ -39,7 +44,8 @@ const Contact = () => {
                         _hover={{ bg: '#ffffff30', color: '#fff'}}
               >
                   Github
-                </Button>
+              </Button>
+            </a>
           </div>
           <div className="contact__para">
             <p>Designed & Created by Keron Williams, 2022</p>

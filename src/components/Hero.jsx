@@ -9,6 +9,7 @@ const Hero = () => {
           <h1 className="heading-sec hero-heading">Keron WIlliams.</h1>
           <p className="hero-heading-sub">I am a <span className="solve-problems">Front-End Developer</span></p>
           <div className="hero__btns">
+          <a href="#projects">
               <Button
                         className="hero__btn"
                         onClick={() => showForm()} 
@@ -19,8 +20,11 @@ const Hero = () => {
                         _hover={{ bg: '#ffffff30', color: '#fff'}}
               >
                   Projects
-              </Button>
+                  </Button>
+            </a>
               &nbsp;&nbsp;
+
+            <a href="#contact">
               <Button
                         className="hero__btn"
                         onClick={() => showForm()} 
@@ -30,7 +34,8 @@ const Hero = () => {
                         _hover={{ bg: '#ffffff30', color: '#fff'}}
               >
                   Contact
-                </Button>
+                  </Button>
+            </a>
           </div>
           <div className="hero__socials">
             <div className="hero__social"><a href="https://www.linkedin.com/in/keron-williams/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></div>
