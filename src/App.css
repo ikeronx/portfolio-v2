@@ -19,7 +19,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
   scroll-behavior: smooth;
+  --transition: all 0.3s linear;
 }
 
 *, 
@@ -41,6 +43,13 @@ code {
   monospace;
 }
 
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
 .container {
   width: min(90%, 45rem);
   margin: 0 auto; /* centers the section/  div in the middle of the browser */
@@ -48,12 +57,13 @@ code {
 
 .sec--pad{
   padding-bottom: 100px;
-  scroll-margin-top: 90px;
+  scroll-margin-top: 320px;
 }
 
 @media screen and (min-width: 40em) {
   .sec--pad{
     padding-bottom: 200px;
+    scroll-margin-top: 100px;
   }
 }
 
@@ -72,43 +82,94 @@ code {
 }
 
 /* NAV BAR */
-
-.navbar-sec{
-  padding-bottom: 50px;
-}
-
-@media screen and (min-width: 40em) {
-  .navbar-sec{
-    padding-bottom: 100px;
-  }
-}
-
-.nav__content{
+.nav {
   position: fixed; 
   z-index: 100;
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size:var(--fs-200);
-  font-family: var(--ff-primary);
-  font-weight: 300;
-  padding-block: 20px;
   color: var(--clr-primary-light-blue);
-  background-color: var(--clr-netrual-dark-blue);
+  backdrop-filter: blur(1rem); /*adds backdrop blur to nav bar */
+  box-shadow: var(--light-shadow);
 }
 
-.nav__btn{
-  font-size:  var(--fs-200) !important;
-  font-weight: 300 !important;
-  color: var(--clr-primary-light-blue) !important;
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
 }
 
-.nav__btn:hover{
-  background: var(--clr-netrual-dark-grayish-blue) !important;
+.nav-toggle {
+  font-size: 1.5rem;
+  color: #fff;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
 }
+
+.nav-toggle:hover {
+  transform: rotate(90deg);
+}
+
+.logo {
+  height: 40px;
+}
+
+.links a {
+  color: var(--clr-grey-3);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+
+.links a:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
+  padding-left: 1.5rem;
+}
+
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-container {
+  height: 10rem;
+}
+
+
+@media screen and (min-width: 40em) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+}
+
 
 /* HERO SEC */
 .hero-sec{
@@ -116,11 +177,13 @@ code {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-top: 120px;
 }
 
 @media screen and (min-width: 40em) {
 .hero-sec{
   align-items: flex-start;
+  padding-top: 280px;
 }
 }
 
@@ -176,8 +239,6 @@ font-size: 1rem;
   color: #fff;
   }
 
-
-
 /* PROJECTS SECTION */
 .projects-sec{
   padding-top: 45px;
@@ -195,17 +256,30 @@ font-size: 1rem;
   .card{
     flex-direction: row;
     text-align: left;
-    padding-bottom: 36px;
+    padding-bottom: 45px;
   }
   /* .card > *{
     flex: 1;
   } */
 }
 
+.card__figure{
+  background-color: black;
+}
+
 .card__image{
   height: 100%;
   width: 100%;
   border-radius: 5px 5px 0 0;
+
+  opacity: 0.7;
+  transition: opacity 0.4s, transform 0.4s;
+  filter: grayscale(90%)
+}
+
+.card__image:hover {
+  opacity: 1;
+  filter: grayscale(0)
 }
 
 @media screen and (min-width: 40em) {
@@ -317,6 +391,8 @@ font-size: 1rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
   font-size: 0.7rem;
   color: var(--clr-primary-light);
 }
@@ -334,11 +410,9 @@ font-size: 1rem;
 }
 
 /* ABOUT ME SECTION */
-
 .about-me__box{
   display: flex;
   flex-direction: column;
-
 }
 
 .about-me__box--one{

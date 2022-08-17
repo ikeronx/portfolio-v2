@@ -4,7 +4,7 @@ import { Button} from '@chakra-ui/react'
 
 const Hero = () => {
   return (
-      <section className="container hero-sec sec--pad">
+      <section id='home' className="container hero-sec sec--pad">
           <p className="hero-heading-sub">Hello, my name is</p>
           <h1 className="heading-sec hero-heading">Keron WIlliams.</h1>
           <p className="hero-heading-sub">I am a <span className="solve-problems">Front-End Developer</span></p>
