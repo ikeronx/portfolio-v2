@@ -21,13 +21,9 @@ const Navbar = () => {
     return (
     <header className=" navbar-sec">
     <nav className='nav container'>
-      <div className='nav-header'>
-                    <img src={globeIcon} className='logo' alt='logo' />
-                    
-
-
-
-                    
+          <div className='nav-header'>
+            <p>K/W</p>
+      {/* <img src={globeIcon} className='logo' alt='logo' /> */}
         <button className='nav-toggle' onClick={toggleLinks}>
           <HamburgerIcon  />
         </button>
