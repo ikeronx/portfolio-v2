@@ -6,8 +6,8 @@ export const data = [
         github: "",
         demo: '',
         description: "Trips Ahoy! is a single-page crud application that allows a user to organize trips and document the experiences had during the trip.  The user can filter trips based on country, rating, sort trips based on date, rating, country name, and add/update trips. ",
-        image: "https://64.media.tumblr.com/b4b35cb76022835d14c7e70a82ca6981/416ba919d0a8d596-2e/s2048x3072/927772ede7864cd61f56c5508e113009f5e0219d.pnj",
-        tools: ['React', 'Chakra UI', 'Hooks', 'Web Storage API'],
+        image: "https://64.media.tumblr.com/a5e2a709426b3e35782d54b31ab46553/28665ef935ca3298-64/s1280x1920/da5a7c89b40267fab7b61a42507eafe8a36d907d.pnj",
+        tools: ['HTML5', 'CSS3', 'JavaScript ES6+', 'REST countries API'],
     }, 
     {
         id: 1,
