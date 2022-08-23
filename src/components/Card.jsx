@@ -28,6 +28,7 @@ const Card = (props) => {
                         <div className='projects__tools-item'>{props.tools[1]}</div>
                         <div className='projects__tools-item'>{props.tools[2]}</div>
                         <div className='projects__tools-item'>{props.tools[3]}</div>
+                        <div className='projects__tools-item'>{props.tools[4]}</div>
                     </div>
                 </div>
             </header>

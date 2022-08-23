@@ -6,8 +6,8 @@ export const data = [
         github: "",
         demo: '',
         description: "Trips Ahoy! is a single-page crud application that allows a user to organize trips and document the experiences had during the trip.  The user can filter trips based on country, rating, sort trips based on date, rating, country name, and add/update trips. ",
-        image: "https://64.media.tumblr.com/a5e2a709426b3e35782d54b31ab46553/28665ef935ca3298-64/s1280x1920/da5a7c89b40267fab7b61a42507eafe8a36d907d.pnj",
-        tools: ['HTML5', 'CSS3', 'JavaScript ES6+', 'REST countries API'],
+        image: "https://64.media.tumblr.com/ad8389108010f88823ad1e579085794c/02c7bda5f62d0ad7-ea/s1280x1920/91b568bf7ff476995be6f1f50e447dc12b49ca47.pnj",
+        tools: ['HTML5', 'CSS3', 'JavaScript ES6+', 'REST countries API', 'OpenWeatherMap API'],
     }, 
     {
         id: 1,
@@ -17,7 +17,7 @@ export const data = [
         demo: 'https://ikeronx.github.io/bookie_app/',
         description: "Koco.. is a single-page CRUD application that allows a user to keep track of their books. The user can add, edit, delete, and save books. Each book is saved to local storage via the Web Storage API.",
         image: "https://64.media.tumblr.com/54ab4ea2723c4e20da87a606951d79f5/a898d411242aa2c6-c6/s1280x1920/b3f494ad4e986a4b0ef2a3283742eaf510032bdc.pnj",
-        tools: ['HTML5', 'CSS3', 'Javascript ES6+', ' Web Storage API'],
+        tools: ['HTML5', 'CSS3', 'SASS', 'Javascript ES6+', ' Web Storage API'],
     }
     // {
     //     id: 2,
