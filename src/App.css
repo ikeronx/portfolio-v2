@@ -357,6 +357,7 @@ font-size: 1rem;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
   /* color: var(--clr-primary-light); */
   color: var(--clr-primary-light-blue);
@@ -365,6 +366,7 @@ font-size: 1rem;
 @media screen and (min-width: 40em) {
   .card__title{
     font-size: 1.5rem;
+    padding-top: 0;
     padding-bottom: 30px;
   }
 }
