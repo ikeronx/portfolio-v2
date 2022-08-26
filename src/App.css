@@ -308,9 +308,16 @@ font-size: 1rem;
   border-radius: 0 0 5px 5px;
 }
 
+@media screen and (min-width: 30em) {
+  .card-textbox{ 
+    width: auto;
+  }
+}
+
 @media screen and (min-width: 40em) {
   .card-textbox{ 
     border-radius: 0 5px 5px 0;
+    width: 17rem;
   }
 }
 
@@ -361,13 +368,15 @@ font-size: 1rem;
   padding-bottom: 20px;
   /* color: var(--clr-primary-light); */
   color: var(--clr-primary-light-blue);
+  margin-top: 0;
 }
 
 @media screen and (min-width: 40em) {
   .card__title{
     font-size: 1.5rem;
     padding-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+    margin-top: -10px;
   }
 }
 
@@ -381,7 +390,7 @@ font-size: 1rem;
 
 @media screen and (min-width: 40em) {
   .card__description{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 }
 
