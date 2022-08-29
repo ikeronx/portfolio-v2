@@ -289,7 +289,7 @@ font-size: 1rem;
     height: 23rem;
   } 
   .card__image{
-    object-fit: cover; 
+    object-fit: fit; 
     position: absolute;
     left: 0;
     top: 0;
@@ -375,11 +375,10 @@ font-size: 1rem;
   .card__title{
     font-size: 1.5rem;
     padding-top: 0;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     margin-top: -10px;
   }
 }
-
 .card__description{
   font-weight: 400;
   font-size: 1rem;
@@ -390,7 +389,7 @@ font-size: 1rem;
 
 @media screen and (min-width: 40em) {
   .card__description{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 }
 
