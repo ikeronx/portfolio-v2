@@ -5,9 +5,9 @@ export const data = [
         type: "crud app",
         github: "",
         demo: '',
-        description: "Trips Ahoy! is a crud application that allows a user to organize trips and document the experiences had during the trip.  The user can sort or filter trips based on country, rating, date, and add/update trips. ",
-        image: "https://64.media.tumblr.com/6c4aa193f9359f0c87ada35ec8f91911/b5966cc2d62ef222-c8/s1280x1920/0cceb8ea5226025f2fc8779645ad105729d885f7.pnj",
-        tools: ['HTML5', 'CSS3', 'JavaScript ES6+', 'REST countries API', 'OpenWeatherMap API', 'unsplash API'],
+        description: "Trips Ahoy is a travel application consuming multiple APIs that helps users document all the countries and cities they have visited. Users can add a new trip simply by clicking anywhere on the map that toggles a form so they can input the travel details. The travel details render as a card displaying the country's name and flag, city, rating, trip's date, photo, and current weather of the city or location. Users can edit the travel details or delete the card if they wish to.",
+        image: "https://64.media.tumblr.com/2c7e565ac9cd918a064404423e558955/86f791f184847e45-b7/s1280x1920/293729f8f25ab689f22215754e3017a1708610bd.pnj",
+        tools: ['JavaScript ES6+', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     }, 
     {
         id: 1,

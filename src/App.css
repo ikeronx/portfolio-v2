@@ -311,6 +311,7 @@ font-size: 1rem;
 @media screen and (min-width: 30em) {
   .card-textbox{ 
     width: auto;
+    padding-bottom: 30px; 
   }
 }
 
@@ -318,6 +319,7 @@ font-size: 1rem;
   .card-textbox{ 
     border-radius: 0 5px 5px 0;
     width: 17rem;
+    padding-bottom: 5px; 
   }
 }
 
@@ -331,7 +333,7 @@ font-size: 1rem;
 
 @media screen and (min-width: 40em) {
   .card-textbox__country{
-    font-size: 1rem;
+    font-size: 0.5rem;
     justify-content: space-between;
     /* padding-block: 0; */
   }
@@ -373,15 +375,15 @@ font-size: 1rem;
 
 @media screen and (min-width: 40em) {
   .card__title{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-top: 0;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     margin-top: -10px;
   }
 }
 .card__description{
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 150%; 
   color: var(--clr-primary-light);
   padding-bottom: 20px;
@@ -389,7 +391,7 @@ font-size: 1rem;
 
 @media screen and (min-width: 40em) {
   .card__description{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 }
 
@@ -398,9 +400,9 @@ font-size: 1rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  row-gap: 0.5rem;
-  column-gap: 0.5rem;
-  font-size: 0.7rem;
+  row-gap: 0.3rem;
+  column-gap: 0.2rem;
+  font-size: 0.6rem;
   color: var(--clr-primary-light);
 }
 
