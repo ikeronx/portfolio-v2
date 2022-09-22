@@ -5,8 +5,8 @@ export const data = [
         type: "crud app",
         github: "",
         demo: '',
-        description: "Trips Ahoy is a travel application consuming multiple APIs that helps users document all the countries and cities they visited. Users can add a new trip simply by clicking anywhere on the map that toggles a form so they can input the travel details. The travel details render as a card displaying the country's name and flag, city, rating, trip's date, photo, and current weather for the city or location. Users can edit the travel details or delete the card if they wish to.",
-        image: "https://64.media.tumblr.com/2c7e565ac9cd918a064404423e558955/86f791f184847e45-b7/s1280x1920/293729f8f25ab689f22215754e3017a1708610bd.pnj",
+        description: `Trips Ahoy is a travel application consuming multiple Web APIs that allows users to document all the countries (cities) they visited . Users can add a trip simply by clicking on the map that allows location tracking via the Leaflet Map Javascript plugin. The travel details render as a card displaying the country's name, flag, city, rating, trip's date, photo, and current weather. Users can update or delete the trip if they wish to.`,
+        image: "https://64.media.tumblr.com/b458389826347338db9fa41b655e9148/5b24ff0441e6b657-f5/s1280x1920/bb70863e38b100daa20f52755d72c1922ef5d0a9.jpg",
         tools: ['JavaScript ES6+', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     }, 
     {
