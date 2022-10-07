@@ -163,11 +163,11 @@ a {
     display: flex;
   }
   .links a {
-    padding-left:1rem;
+    padding-left:2rem;
     margin: 0 ;
   }
   .links a:hover {
-    padding-left: 1rem;
+    padding-left: 2rem;
     background: transparent;
   }
 }
