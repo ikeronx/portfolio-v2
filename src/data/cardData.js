@@ -6,7 +6,7 @@ export const data = [
         github: "",
         demo: '',
         description: `Trips Ahoy! is a travel management app consuming multiple web APIs that allows users to manage and organize all the countries and cities they visited. Users can add a trip simply by clicking on the map that allows location tracking via the Leaflet Map Javascript plugin. The trip details render as a card displaying the country's name, flag, rating, trip's date, photo, city and current weather. Users can update or delete the trip if they wish to and lookup flights to any country in the world from their current location.`,
-        image: "https://64.media.tumblr.com/8f7e88eea9da1f94d163a55c79bdb377/799fc0719d8f4ea4-56/s1280x1920/9a7f2c6af363cee4a061224b364095679d03dd74.pnj",
+        image: "https://64.media.tumblr.com/59e6ca9f0be1d4ab36315e622bd78ef8/875c2ed181e52af4-56/s2048x3072/931d0aba540703022723f2c393ccffe50fa4fc63.pnj",
         tools: ['HTML5', 'CSS3','JavaScript ES6+', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     }, 
     {
