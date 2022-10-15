@@ -22,7 +22,7 @@ const Navbar = () => {
     <header className=" navbar-sec">
     <nav className='nav container'>
           <div className='nav-header'>
-            <p>K/W</p>
+            <p>&nbsp;</p>
       {/* <img src={globeIcon} className='logo' alt='logo' /> */}
         <button className='nav-toggle' onClick={toggleLinks}>
           <HamburgerIcon  />
