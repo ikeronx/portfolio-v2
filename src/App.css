@@ -62,12 +62,11 @@ a {
   scroll-margin-top: 320px;
 }
 
-/* @media screen and (min-width: 40em) {
+@media screen and (min-width: 40em) {
   .sec--pad{
-     padding-bottom: 200px; 
-    scroll-margin-top: 100px;
+     scroll-margin-top: 100px;
   }
-} */
+}
 
 .heading-sec{ 
   color:   var(--clr-primary);;
