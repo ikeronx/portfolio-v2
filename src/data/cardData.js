@@ -2,12 +2,12 @@ export const data = [
     {
         id: 0,
         title: "Trips Ahoy!",
-        type: "crud app",
+        type: "webgis api crud app",
         github: "",
         demo: '',
-        description: `Trips Ahoy! is a travel management app consuming multiple web APIs that allows users to manage and organize all the countries and cities they visited. Users can add a trip simply by clicking on the map that allows location tracking via the Leaflet Map Javascript plugin. The trip details render as a card displaying the country's name, flag, rating, trip's date, photo, city and current weather. Users can update or delete the trip if they wish to and lookup flights to any country in the world from their current location.`,
-        image: "https://64.media.tumblr.com/8a3d6658be525de15fea4e68e34928ea/e1abdba185178d4c-e0/s1280x1920/1df54f941b38789f6a74c31f9128192f81fb3516.pnj",
-        tools: ['HTML5', 'CSS3','JavaScript ES6+', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
+        description: `Trips Ahoy! is a travel management app consuming multiple web APIs that allows users to manage and organize all the countries and cities they visited. Users can add a trip simply by clicking on the map that allows location tracking via the Leaflet library and ArcGis Esri Services. The trip details render as a card displaying the country's name, flag, rating, trip's date, photo, city and current weather. Users can update or delete the trip if they wish to and lookup flights to any country in the world from their current location.`,
+        image: "https://64.media.tumblr.com/39a80593674ba145bd455c76e691f4d2/97da90ec0468d4c4-ff/s1280x1920/14aa842048b0d7959a0e90cd9ae0aab1b0fea282.pnj",
+        tools: ['HTML5', 'CSS3','JavaScript ES6+', 'Leaflet Library', 'ArcGis Online Services', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     }, 
     {
         id: 1,
