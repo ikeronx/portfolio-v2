@@ -38,9 +38,9 @@ const Hero = () => {
             </a>
           </div>
           <div className="hero__socials">
-            <div className="hero__social"><a href="https://www.linkedin.com/in/keron-williams/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></div>
-            <div className="hero__social"><a href="https://github.com/ikeronx" target="_blank"><ion-icon name="logo-github"></ion-icon></a></div>
-            <div className="hero__social"><a href="https://codepen.io/ikeronx" target="_blank"><ion-icon name="logo-codepen"></ion-icon></a></div>
+            <div className="hero__social"><a href="https://www.linkedin.com/in/keron-williams/" target="_blank"><ion-icon class='hero-icon'  name="logo-linkedin"></ion-icon></a></div>
+            <div className="hero__social"><a href="https://github.com/ikeronx" target="_blank"><ion-icon class='hero-icon' name="logo-github"></ion-icon></a></div>
+            <div className="hero__social"><a href="https://codepen.io/ikeronx" target="_blank"><ion-icon class='hero-icon' name="logo-codepen"></ion-icon></a></div>
           </div>
     </section>
   )
