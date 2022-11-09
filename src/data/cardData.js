@@ -17,7 +17,7 @@ export const data = [
         type: "Website",
         github: "",
         demo: '',
-        description: "Déjà Brew is a contemporary cafe website which features a full tab menu, carousel testimonial, reservation functionality and a custom map",
+        description: "Déjà Brew is a contemporary cafe website which features a full tab menu, carousel testimonial, reservation functionality and a custom map.",
         image: "https://64.media.tumblr.com/6df347d8120fb7e640900021b11153e4/8b2f498d287126ce-88/s2048x3072/956c0de4474ff49cfe14351f2bb7967fc1d488a6.pnj", 
         tools: ['','','HTML5', 'CSS3', 'Javascript', 'Leaflet', 'ArcGis Online', 'Fslightbox', '', ''],
     },
