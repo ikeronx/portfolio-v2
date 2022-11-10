@@ -9,7 +9,7 @@ export const data = [
         
         `,
         image: "https://64.media.tumblr.com/1ddeadb1fa4cab3b91a148737a83f3dc/acfa141cb05079d9-34/s2048x3072/c88769b4abbcc296ac3244d5d682495e75adb9ad.pnj",
-        tools: ['HTML5', 'CSS3','JavaScript ES6+', 'Leaflet Library', 'ArcGis Online Services', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
+        tools: ['HTML5', 'CSS3','JavaScript ES6+', 'Leaflet Library', 'ArcGis Enterprise', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     }, 
      {
         id: 2,
@@ -17,9 +17,9 @@ export const data = [
         type: "Website",
         github: "",
         demo: '',
-        description: "Déjà Brew is a contemporary cafe website which features a full tab menu, carousel testimonial, reservation functionality and a custom map.",
+        description: "Déjà Brew is a contemporary cafe website which features a full tab menu, testimonial carousel , reservation functionality and a custom map.",
         image: "https://64.media.tumblr.com/6df347d8120fb7e640900021b11153e4/8b2f498d287126ce-88/s2048x3072/956c0de4474ff49cfe14351f2bb7967fc1d488a6.pnj", 
-        tools: ['','','HTML5', 'CSS3', 'Javascript', 'Leaflet', 'ArcGis Online', 'Fslightbox', '', ''],
+        tools: ['','','HTML5', 'CSS3', 'Javascript', 'Leaflet', 'ArcGis Enterprise', 'Fslightbox', '', ''],
     },
     {
         id: 3,
