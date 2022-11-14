@@ -8,7 +8,7 @@ export const data = [
         description: `Trips Ahoy! is a travel companion app consuming multiple web APIs that allows users to manage and organize all the countries and cities they visited. The key features of the app are, search an address or place, get current weather for address searched, explore places near an area searched, find a route and directions, add trips by clicking on the map, rate trips, update trips, delete trips, look up flights and change map style.
         
         `,
-        image: "https://64.media.tumblr.com/1ddeadb1fa4cab3b91a148737a83f3dc/acfa141cb05079d9-34/s2048x3072/c88769b4abbcc296ac3244d5d682495e75adb9ad.pnj",
+        image: "https://64.media.tumblr.com/263f17842d506ab1e7991e210216df1b/4be26452c6bbcbf9-e4/s2048x3072/8f3e323f3b4e8b2c52d96df22473d0fb2de18222.pnj",
         tools: ['HTML5', 'CSS3','JavaScript ES6+', 'Leaflet Library', 'ArcGis Enterprise', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     }, 
      {
