@@ -5,13 +5,13 @@ export const data = [
         type: "webgis api crud app",
         github: "",
         demo: '',
-        description: `Trips Ahoy! is a travel companion app consuming multiple web APIs that allows users to manage and organize all the countries and cities they visit. The key features of the app are, search an address or place, getting current weather for address searched, finding places near an area searched, find a route and directions, add trips by clicking on the map, rate trips, update trips, delete trips, look up flights and change map style.git
+        description: `Trips Ahoy! is a travel companion app consuming multiple web APIs that allows users to manage and organize all the countries and cities they visit. The key features of the app are, search an address or place, getting current weather for address searched, finding places near an area searched, find a route and directions, add trips by clicking on the map, rate trips, update trips, delete trips, look up flights and change map style.
         
         `,
-        image: "https://64.media.tumblr.com/263f17842d506ab1e7991e210216df1b/4be26452c6bbcbf9-e4/s2048x3072/8f3e323f3b4e8b2c52d96df22473d0fb2de18222.pnj",
+        image: "https://64.media.tumblr.com/afaebaf7a94dee2b65dfb02e3bb9250e/3c2f96b6a62cdb80-7b/s2048x3072/68248125090079a2b2fe89010ef8aeb8aba45603.pnj",
         tools: ['HTML5', 'CSS3','JavaScript ES6+', 'Leaflet Library', 'ArcGis Enterprise', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     }, 
-     {
+    {
         id: 2,
         title: "Déjà Brew",
         type: "Website",
