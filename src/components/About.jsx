@@ -7,7 +7,7 @@ const About = () => {
       <div  className="about-me__box">
         <div className="about-me__box--one">
           <h3  className="about-me__subtitle">Bio</h3>
-          <p>I'm a Self-Taught Front-End Developer/Freelancer who builds quality responsive websites and rich interactive web applications that <span className="solve-problems">solve problems</span>.</p>
+          <p>I'm a Self-Taught Front-End Developer who builds quality responsive websites and rich interactive web applications that <span className="solve-problems">solve problems</span>.</p>
           <p>I'm always striving to learn and develop new skills to be a better developer by indulging myself in project building, thus sharpening my problem-solving skills to apply in real-life situations for quick and optimized solutions.</p>
         </div>
         <div>
