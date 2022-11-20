@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { links } from '../data/navLinks'
-import globeIcon from '../assets/icons/globe.svg'
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
@@ -23,7 +22,6 @@ const Navbar = () => {
     <nav className='nav container'>
           <div className='nav-header'>
             <p>&nbsp;</p>
-      {/* <img src={globeIcon} className='logo' alt='logo' /> */}
         <button className='nav-toggle' onClick={toggleLinks}>
           <HamburgerIcon  />
         </button>

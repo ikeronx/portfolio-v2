@@ -23,7 +23,7 @@ const About = () => {
                 <p>CSS3</p>
             </div>
             <div className="end-box">
-                 <span style={{paddingLeft: "1.4rem"}}><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript" target="_blank"><ion-icon name="logo-javascript"></ion-icon></a></span>
+                <span style={{paddingLeft: "1.4rem"}}><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript" target="_blank"><ion-icon name="logo-javascript"></ion-icon></a></span>
                 <p>JavaScript</p>
             </div>
             <div className="sass-box">
