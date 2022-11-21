@@ -3,8 +3,8 @@ export const data = [
         id: 0,
         title: "Trips Ahoy!",
         type: "webgis api crud app",
-        github: "",
-        demo: '',
+        github: "https://github.com/ikeronx/trips_ahoy",
+        demo: 'https://ikeronx.github.io/trips_ahoy/',
         description: `Trips Ahoy! is a travel companion app consuming multiple web APIs that allow users to plan and organize trips and document the experience they had during the trip. The key features of the app are, search an address or place, getting current weather for address searched, finding places near an area searched, find a route and directions, add trips by clicking on the map, rate trips, update trips, delete trips, look up flights and change map style.
         
         `,
