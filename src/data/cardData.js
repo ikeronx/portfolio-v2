@@ -24,9 +24,9 @@ export const data = [
     {
         id: 3,
         title: "Travel Journal",
-        type: "Web App",
-        github: "https://www.google.com/maps/place/Christ+the+Redeemer/@-22.951911,-43.2126759,17z/data=!3m1!4b1!4m5!3m4!1s0x997fd5984aa13f:0x9dc984d7019502de!8m2!3d-22.951916!4d-",
-        demo: 'https://ikeronx.github.io/bookie_app/',
+        type: "React Web App",
+        github: "https://github.com/ikeronx/travel_journal",
+        demo: 'https://ikeronx.github.io/travel_journal/',
         description: "Built, coded, and designed a fully responsive web app using React and React Hooks.",
         image: "https://64.media.tumblr.com/00b4d46cf9e125a8d0cdbd90f3ea5013/061f05122a3777cd-d0/s1280x1920/678f416ee6a8cfed92d0da0d57b39a3db02f3f60.pnj",
         tools: ['', '', '', 'Javascript ES6+', 'React', 'Hooks', 'Chakra UI'],
