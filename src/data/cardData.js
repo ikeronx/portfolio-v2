@@ -5,7 +5,7 @@ export const data = [
         type: "webgis api crud app",
         github: "https://github.com/ikeronx/trips_ahoy",
         demo: 'https://ikeronx.github.io/trips_ahoy/',
-        description: `Trips Ahoy! is a travel companion app consuming multiple web APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
+        description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
         
         `,
         image: "https://64.media.tumblr.com/cc37978581d3b89a010968761cc68b23/122f8e6bf9464884-3d/s1280x1920/9afb05b9f4956465ae131c4b8f5801ebbda68221.pnj",
