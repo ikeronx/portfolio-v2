@@ -6,7 +6,7 @@ const Card = (props) => {
         <article className="card">
             <aside className="card__aside">
                 <figure className="card__figure">
-                <a href={props.demo} target="_blank" ><img className="card__image" src={props.image} alt="An image of a girl smiling while wearing a swimming cap" /></a>
+                    <a href={props.demo} target="_blank" ><img className="card__image" src={props.image} alt="An image of a girl smiling while wearing a swimming cap" /></a>
                 </figure>
             </aside>
             <header className="card__header card-textbox">

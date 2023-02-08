@@ -2,7 +2,7 @@ export const data = [
     {
         id: 0,
         title: "Trips Ahoy!",
-        type: "webgis api crud app",
+        type: "web app",
         github: "https://github.com/ikeronx/trips_ahoy",
         demo: 'https://ikeronx.github.io/trips_ahoy/',
         description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
@@ -34,10 +34,10 @@ export const data = [
     {
         id: 3,
         title: "PRCFIT Newsletter",
-        type: "Email Template",
+        type: "Email",
         github: "https://github.com/ikeronx/prcfit_newsletter_email_template",
         demo: 'https://ikeronx.github.io/prcfit_newsletter_email_template/',
-        description: "Built and coded a fully responsive newsletter for a clothing store.",
+        description: "Built and coded a fully responsive email template for a clothing store.",
         image: "https://64.media.tumblr.com/950cddba6dc8b5094c37904bd11b06f3/96123c63efd4ef8c-da/s2048x3072/aab2b19de3b3a55b47d2ab380ba2257925fa7c12.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     }
