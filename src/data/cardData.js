@@ -33,7 +33,7 @@ export const data = [
     // },
     {
         id: 3,
-        title: "PRCFIT NEWSLETTER",
+        title: "PRCFIT Newsletter",
         type: "Email Template",
         github: "https://github.com/ikeronx/prcfit_newsletter_email_template",
         demo: 'https://ikeronx.github.io/prcfit_newsletter_email_template/',
