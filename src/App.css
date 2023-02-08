@@ -321,18 +321,6 @@ font-size: 1rem;
   }
 }
 
-ion-icon{
-  font-size: 1.6em;
-}
-
-/* @media screen and (min-width: 40em) {
-  .card-textbox{ 
-    border-radius: 0 5px 5px 0;
-    width: 17rem;
-    padding-bottom: 5px; 
-  }
-} */
-
 .card-textbox__country{
   display: flex;
   align-items: center;
@@ -340,14 +328,6 @@ ion-icon{
   font-weight: 400;
   font-size: 12px;
 }
-/* 
-@media screen and (min-width: 40em) {
-  .card-textbox__country{
-    font-size: 1rem;
-    justify-content: space-between; */
-    /* padding-block: 0; */
-  /* }
-} */
 
 .card__location--country{
   color: rgba(255, 255, 255, 0.667);
@@ -379,19 +359,10 @@ ion-icon{
   line-height: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  /* color: var(--clr-primary-light); */
   color: var(--clr-primary-light-blue);
   margin-top: 0;
 }
 
-/* @media screen and (min-width: 40em) {
-  .card__title{
-    font-size: 1.2rem;
-    padding-top: 0;
-    padding-bottom: 0px;
-    margin-top: -10px;
-  }
-} */
 .card__description{
   font-weight: 400;
   font-size: 1rem;
@@ -401,13 +372,6 @@ ion-icon{
   height: auto;
 }
 
-/* @media screen and (min-width: 40em){
-  .card__description{
-    padding-bottom: 30px;
-    height: 280px;
-    overflow: scroll;
-  }
-} */
 
 /* Let's get this party started */
 .card__description::-webkit-scrollbar {
@@ -436,13 +400,6 @@ ion-icon{
   font-size: 0.6rem;
   color: var(--clr-primary-light);
 }
-
-/* @media screen and (min-width: 60em) {
-  .projects__tools-list{
-    justify-content: flex-start; 
-
-  }
-} */
 
 .projects__tools-item{
   padding: 5px 10px;
@@ -524,15 +481,24 @@ ion-icon{
  margin-left: -1rem;
 } 
 
+.mailchimp-img {
+  margin-left: 19px;
+}
+
 .netlify-box{
-  margin-left: -0.8rem;
- } 
+  margin-left: -1.2rem;
+} 
 
 .netlify-img{
-  display:block;
+  margin-left: 8px;
+}
+
+.icon--clr {
+  display: block;
   width: 2rem;
   height: 2rem;
   max-width: 100%;
+  filter: invert(73%) sepia(19%) saturate(5069%) hue-rotate(186deg) brightness(111%) contrast(103%);
 }
 
 /* CONTACT SECTION */

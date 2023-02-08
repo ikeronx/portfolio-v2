@@ -7,8 +7,8 @@ const About = () => {
       <div  className="about-me__box">
         <div className="about-me__box--one">
           <h3  className="about-me__subtitle">Bio</h3>
-          <p>I'm a Front-End Developer who builds quality responsive websites and rich interactive web applications that <span className="solve-problems">solve problems</span>.</p>
-          <p>I'm always striving to learn and develop new skills to be a better developer by indulging myself in project building, thus sharpening my problem-solving skills to apply in real-life situations for quick and optimized solutions.</p>
+          <p>I'm a Developer who builds quality emails, responsive websites and rich interactive web applications that <span className="solve-problems">solve problems</span>.</p>
+          <p>I continuously strive to improve as a developer by constantly learning and acquiring new skills through hands-on projects. This sharpens my problem-solving abilities and helps me provide efficient solutions to real-life challenges.</p>
         </div>
         <div>
           <h3 className="about-me__subtitle">My Tech Stack</h3>
@@ -42,13 +42,18 @@ const About = () => {
                 <span style={{paddingLeft: "0.5rem"}}><a href="https://www.figma.com/" target="_blank"><ion-icon name="logo-figma"></ion-icon></a></span>
                 <p>Figma</p>
             </div>
-            <div  className="markdown-box">
+            {/* <div  className="markdown-box">
                 <span style={{paddingLeft: "1.3rem"}}><a href="https://www.markdownguide.org/" target="_blank"><ion-icon name="logo-markdown"></ion-icon></a></span>
                 <p>Markdown</p>
+            </div> */}
+            
+            <div className="netlify-box end-box">
+              <span style={{ paddingLeft: "0.3rem" }}><a href="https://www.netlify.com/" target="_blank"><img className="mailchimp-img icon--clr" src="https://www.svgrepo.com/show/473706/mailchimp.svg" alt="img of Netlify icon" /></a></span>
+              <p>MailChimp</p>
             </div>
             <div className="netlify-box end-box">
-              <span style={{paddingLeft: "0.3rem"}}><a href="https://www.netlify.com/" target="_blank"><img className="netlify-img" src="https://www.svgrepo.com/show/354110/netlify.svg" alt="img of Netlify icon" /></a></span>
-                <p>Netlify</p>
+              <span style={{ paddingLeft: "0.3rem" }}><a href="https://www.netlify.com/" target="_blank"><img className="netlify-img icon--clr" src="https://www.svgrepo.com/show/342014/marketo.svg" alt="img of Netlify icon" /></a></span>
+              <p>Marketo</p>
             </div>
           </div>
         </div>

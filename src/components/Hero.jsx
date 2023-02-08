@@ -7,7 +7,7 @@ const Hero = () => {
       <section id='home' className="container hero-sec sec--pad">
           <p className="hero-heading-sub">Hi, my name is</p>
           <h1 className="heading-sec hero-heading">Keron Williams.</h1>
-          <p className="hero-heading-sub">I am a <span className="solve-problems">Front-End Developer</span></p>
+      <p className="hero-heading-sub">I am a <span className="solve-problems">Email Developer </span> | <span className="solve-problems">Front-End Developer</span></p>
           <div className="hero__btns">
           <a href="#projects">
               <Button
