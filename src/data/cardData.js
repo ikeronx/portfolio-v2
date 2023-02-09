@@ -38,7 +38,7 @@ export const data = [
         github: "https://github.com/ikeronx/prcfit_newsletter_email_template",
         demo: 'https://ikeronx.github.io/prcfit_newsletter_email_template/',
         description: "Built and coded a fully responsive email template for a clothing store.",
-        image: "https://64.media.tumblr.com/950cddba6dc8b5094c37904bd11b06f3/96123c63efd4ef8c-da/s2048x3072/aab2b19de3b3a55b47d2ab380ba2257925fa7c12.pnj",
+        image: "https://64.media.tumblr.com/cab10225fb1f7bbb22bb9da7e2540acc/537f6a895c5c7afc-96/s2048x3072/cdba07aded483aa5ef0acd65f958680d6effc9aa.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     }
 ];
