@@ -458,7 +458,7 @@ a > ion-icon{
 } 
 
 .mailchimp-img {
-  margin-left: 19px;
+  margin-left: 18px;
 }
 
 .netlify-box{
@@ -475,6 +475,12 @@ a > ion-icon{
   height: 2rem;
   max-width: 100%;
   filter: invert(73%) sepia(19%) saturate(5069%) hue-rotate(186deg) brightness(111%) contrast(103%);
+}
+
+.email-on-acid-img{
+  width: 2.2rem;
+  height: 2.2rem;
+  filter: invert(46%) sepia(19%) saturate(5069%) hue-rotate(186deg) brightness(111%) contrast(103%);
 }
 
 /* CONTACT SECTION */
