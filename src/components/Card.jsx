@@ -14,6 +14,7 @@ const Card = (props) => {
                     <div className="card-textbox__country">
                         <p className="card__location--country">{props.type}</p>  
                         <div>
+                            <a className="card__location--link card__location--link--pad" href={props.figma} target="_blank"><ion-icon name="logo-figma"></ion-icon></a>
                             <a className="card__location--link card__location--link--pad" href={props.github} target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                             <a className="card__location--link" href={props.demo} target="_blank"><ion-icon name="open-outline"></ion-icon></a>
                         </div>

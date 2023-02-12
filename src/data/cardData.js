@@ -35,10 +35,11 @@ export const data = [
         id: 5,
         title: "Starto Newsletter",
         type: "Newsletter Email",
+        figma: 'https://www.figma.com/file/IKOgA0H2RGA6TFnX1sbH5k/Starto-Newsletter?node-id=0%3A1&t=nqGixhKoNKQFdchs-0',
         github: "https://github.com/ikeronx/starto_newsletter_email",
         demo: 'https://ikeronx.github.io/starto_newsletter_email/',
         description: "Newsletter email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/21a18b2f847e14b86c35b91fa8bd1e26/06330248f9140372-78/s2048x3072/bc6c44a128220a920c1b39625636c1a8657fb14f.pnj",
+        image: "https://64.media.tumblr.com/45a027898d4f85c9939a3dbebce6ee74/4220507159f0b5e9-c2/s2048x3072/9a34bc485db64eeb7f693f6a97d342e9e94ffe87.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
 ];
