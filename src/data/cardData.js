@@ -23,12 +23,12 @@ export const data = [
     },
     {
         id: 4,
-        title: "PRCFIT Newsletter",
-        type: "Newsletter Email",
+        title: "Surge Promo Email",
+        type: "Promotional Email",
         github: "https://github.com/ikeronx/prcfit_newsletter_email_template",
         demo: 'https://ikeronx.github.io/prcfit_newsletter_email_template/',
-        description: "Newsletter email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/cab10225fb1f7bbb22bb9da7e2540acc/537f6a895c5c7afc-96/s2048x3072/cdba07aded483aa5ef0acd65f958680d6effc9aa.pnj",
+        description: "Promotional email created using HTML and CSS.", 
+        image: "https://64.media.tumblr.com/54296ede19ebfcc8db798316c2e71a92/676cc3f8387472ed-6e/s1280x1920/6278ba2de139982e30accef58e046a4bb6cd1d9d.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
@@ -39,7 +39,7 @@ export const data = [
         github: "https://github.com/ikeronx/starto_newsletter_email",
         demo: 'https://ikeronx.github.io/starto_newsletter_email/',
         description: "Newsletter email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/45a027898d4f85c9939a3dbebce6ee74/4220507159f0b5e9-c2/s2048x3072/9a34bc485db64eeb7f693f6a97d342e9e94ffe87.pnj",
+        image: "https://64.media.tumblr.com/b3f5f0fa3f486b244796795e150f5dbb/2fd4c8b03df3eeaa-b2/s2048x3072/427080506424546c155dfe057bedc23380590448.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
 ];
