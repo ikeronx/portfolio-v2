@@ -28,7 +28,7 @@ export const data = [
         github: "https://github.com/ikeronx/prcfit_newsletter_email_template",
         demo: 'https://ikeronx.github.io/prcfit_newsletter_email_template/',
         description: "Promotional email created using HTML and CSS.", 
-        image: "https://64.media.tumblr.com/54296ede19ebfcc8db798316c2e71a92/676cc3f8387472ed-6e/s1280x1920/6278ba2de139982e30accef58e046a4bb6cd1d9d.pnj",
+        image: "https://64.media.tumblr.com/6ba479c9938572064d5043606767cc51/1ac8ebbe8732588a-24/s1280x1920/e48ac285a2616d5d47011b7766933fe9a5d797df.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
@@ -39,7 +39,7 @@ export const data = [
         github: "https://github.com/ikeronx/starto_newsletter_email",
         demo: 'https://ikeronx.github.io/starto_newsletter_email/',
         description: "Newsletter email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/b3f5f0fa3f486b244796795e150f5dbb/2fd4c8b03df3eeaa-b2/s2048x3072/427080506424546c155dfe057bedc23380590448.pnj",
+        image: "https://64.media.tumblr.com/133bc3ed94a12e4b0581f3fe5f381c5c/f82e7488b026faf9-7a/s1280x1920/5b21a60110d88a9d83c213cfecc58c7d6d3e8bd1.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
 ];
