@@ -51,7 +51,7 @@ export const data = [
         github: "https://github.com/ikeronx/shiprocket_transactional_email",
         demo: 'https://ikeronx.github.io/shiprocket_transactional_email/',
         description: "Transactional email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/823c21f221f16a85a5e406416bee34fb/da1402ebcd85fd5d-fa/s2048x3072/966b0440e48fc03dc551dd9491b5df6495b78af2.pnj",
+        image: "https://64.media.tumblr.com/d02139b471cd8ee80513d6f5da267020/90d475a98908db99-a9/s1280x1920/27e9229a60e544e93d87962906647d2927778fac.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
 ];
