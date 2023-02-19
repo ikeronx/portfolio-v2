@@ -48,15 +48,15 @@ const About = () => {
             </div> */}
             
             <div className="netlify-box end-box">
-              <span style={{ marginLeft: "0.6rem" }}><a href="https://www.netlify.com/" target="_blank"><img className="mailchimp-img icon--clr" src="https://www.svgrepo.com/show/473706/mailchimp.svg" alt="img of Netlify icon" /></a></span>
+              <span style={{ marginLeft: "0.6rem" }}><a href="https://mailchimp.com/" target="_blank"><img className="mailchimp-img icon--clr" src="https://www.svgrepo.com/show/473706/mailchimp.svg" alt="img of Netlify icon" /></a></span>
               <p style={{ marginLeft: "0.7rem" }}>MailChimp</p>
             </div>
             <div className="netlify-box">
-              <span style={{ paddingLeft: "0.9rem" }}><a href="https://www.netlify.com/" target="_blank"><img className="netlify-img icon--clr" src="https://www.svgrepo.com/show/342014/marketo.svg" alt="img of Netlify icon" /></a></span>
+              <span style={{ paddingLeft: "0.9rem" }}><a href="https://business.adobe.com/products/marketo/adobe-marketo.html" target="_blank"><img className="netlify-img icon--clr" src="https://www.svgrepo.com/show/342014/marketo.svg" alt="img of Netlify icon" /></a></span>
               <p style={{ marginLeft: "0.3rem" }}>Marketo</p>
             </div>
             <div className="netlify-box end-box">
-              <span style={{ marginLeft: "01.5rem" }}><a href="https://www.netlify.com/" target="_blank"><img className="email-on-acid-img icon--clr" src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_ff5640f6cfcf6fc15a0d929dae2f2f37/email-on-acid.png" alt="img of Netlify icon" /></a></span>
+              <span style={{ marginLeft: "01.5rem" }}><a href="https://www.emailonacid.com/" target="_blank"><img className="email-on-acid-img icon--clr" src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_ff5640f6cfcf6fc15a0d929dae2f2f37/email-on-acid.png" alt="img of Netlify icon" /></a></span>
               <p>Email On Acid</p>
             </div>
           </div>

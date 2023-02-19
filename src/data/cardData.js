@@ -43,4 +43,15 @@ export const data = [
         image: "https://64.media.tumblr.com/133bc3ed94a12e4b0581f3fe5f381c5c/f82e7488b026faf9-7a/s1280x1920/5b21a60110d88a9d83c213cfecc58c7d6d3e8bd1.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
+    {
+        id: 6,
+        title: "Shiprocket Transactional Email",
+        type: "Transactional Email",
+        figma: 'https://www.figma.com/file/7WaYXqOEuXtF8G3stPxfeY/Shiprocket-Transtional-Email?node-id=0%3A1&t=XRfto6csERBKtipO-0',
+        github: "https://github.com/ikeronx/shiprocket_transactional_email",
+        demo: 'https://ikeronx.github.io/shiprocket_transactional_email/',
+        description: "Transactional email created using HTML and CSS.",
+        image: "https://64.media.tumblr.com/823c21f221f16a85a5e406416bee34fb/da1402ebcd85fd5d-fa/s2048x3072/966b0440e48fc03dc551dd9491b5df6495b78af2.pnj",
+        tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
 ];
