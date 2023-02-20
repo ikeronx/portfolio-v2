@@ -29,7 +29,7 @@ export const data = [
         github: "https://github.com/ikeronx/surge_promo_email",
         demo: 'https://ikeronx.github.io/surge_promo_email/',
         description: "Promotional email created using HTML and CSS.", 
-        image: "https://64.media.tumblr.com/6ba479c9938572064d5043606767cc51/1ac8ebbe8732588a-24/s1280x1920/e48ac285a2616d5d47011b7766933fe9a5d797df.pnj",
+        image: "https://64.media.tumblr.com/9f769056e88f82846dbe701483223399/672c0c70a2ce5989-e6/s2048x3072/61e1c584fe3cf4b3b8401f95b76c07537887fdb2.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
