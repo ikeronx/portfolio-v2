@@ -306,7 +306,7 @@ a > ion-icon{
 }
 
 .card__location--country{
-  color: rgba(255, 255, 255, 0.667);
+  color: var(--clr-primary-light-blue);
   text-transform: uppercase;
   padding-left: 4px;
   padding-right: 12px;
@@ -314,15 +314,18 @@ a > ion-icon{
   letter-spacing: 0.17em;
   font-size: 0.8rem;
 }
-
-.card__location--link{
-  line-height: 12px;
-  text-decoration-line: underline;
-  color:  rgba(255, 255, 255, 0.667);
+.card__location--link,
+.card__location--link:link,
+.card__location--link:visited {
+  display: inline-block;
+  text-decoration: underline;
+  color: var(--clr-primary-light-blue);
+  text-transform: uppercase;
+  width: auto;
 }
 
 .card__location--link--pad{
-  padding-right: 7px;
+  padding-right: 12px;
 }
 
 .card__location--link:hover{
@@ -344,8 +347,9 @@ a > ion-icon{
   font-size: 1rem;
   line-height: 150%; 
   color: var(--clr-primary-light);
-  padding-bottom: 20px;
+
   height: auto;
+  padding: 0 40px 20px 40px;
 }
 
 

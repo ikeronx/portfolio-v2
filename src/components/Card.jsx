@@ -13,11 +13,18 @@ const Card = (props) => {
                 <div className="card-textbox__location-box">
                     <div className="card-textbox__country">
                         <p className="card__location--country">{props.type}</p>  
-                        <div>
-                            <a className="card__location--link card__location--link--pad" href={props.figma} target="_blank"><ion-icon name="logo-figma"></ion-icon></a>
-                            <a className="card__location--link card__location--link--pad" href={props.github} target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-                            <a className="card__location--link" href={props.demo} target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                        <div> 
+                            <a className="card__location--link card__location--link--pad" href={props.demo} target="_blank">LIVE SITE &rarr;</a>
+                            <a className="card__location--link card__location--link--pad" href={props.github} target="_blank">CODE &rarr;</a> 
+                            <a className="card__location--link" href={props.figma} target="_blank">FIGMA MOCKUP &rarr;</a>
                         </div>
+
+
+                        {/* <div>
+                            <a className="card__location--link" href={props.demo} target="_blank"><ion-icon name="open-outline"></ion-icon>LIVE SITE</a>
+                            <a className="card__location--link card__location--link--pad" href={props.figma} target="_blank"><ion-icon name="logo-figma"></ion-icon>FIGMA MOCKUP</a>
+                            <a className="card__location--link card__location--link--pad" href={props.github} target="_blank"><ion-icon name="logo-github"></ion-icon>CODE</a>
+                        </div> */}
                     </div>
                 </div>
                 <h3 className="card__title">{props.title}</h3>

@@ -1,28 +1,27 @@
 export const data = [
     {
         id: 0,
-        title: "Trips Ahoy!",
-        type: "web app",
-        github: "https://github.com/ikeronx/trips_ahoy",
-        demo: 'https://ikeronx.github.io/trips_ahoy/',
-        description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
-        
-        `,
-        image: "https://64.media.tumblr.com/cc37978581d3b89a010968761cc68b23/122f8e6bf9464884-3d/s1280x1920/9afb05b9f4956465ae131c4b8f5801ebbda68221.pnj",
-        tools: ['HTML5', 'CSS3','JavaScript ES6+', 'Leaflet Library', 'ArcGis Enterprise', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
-    }, 
-    {
-        id: 2,
         title: "Déjà Brew",
         type: "Website",
         github: "https://github.com/ikeronx/deja_brew",
         demo: 'https://ikeronx.github.io/deja_brew/',
         description: "Déjà Brew is a contemporary cafe website which features a full tab menu, testimonial carousel , reservation functionality and a custom map.",
-        image: "https://64.media.tumblr.com/6df347d8120fb7e640900021b11153e4/8b2f498d287126ce-88/s2048x3072/956c0de4474ff49cfe14351f2bb7967fc1d488a6.pnj", 
-        tools: ['','','HTML5', 'CSS3', 'Javascript ES6+', 'Leaflet', 'ArcGis Enterprise', 'Fslightbox', '', ''],
+        image: "https://64.media.tumblr.com/6df347d8120fb7e640900021b11153e4/8b2f498d287126ce-88/s2048x3072/956c0de4474ff49cfe14351f2bb7967fc1d488a6.pnj",
+        tools: ['', '', 'HTML5', 'CSS3', 'Javascript ES6+', 'Leaflet', 'ArcGis Enterprise', 'Fslightbox', '', ''],
     },
     {
-        id: 4,
+        id: 1,
+        title: "Best Friends Promo Email",
+        type: "Promotional Email",
+        figma: 'https://www.figma.com/file/4s0ATwQSl4gCaPog4UUxS1/Best-Friends-Promo-Email?node-id=0%3A1&t=EnyeB0YFsAP7vSQn-0',
+        github: "https://github.com/ikeronx/best_friends_save_them_all_email",
+        demo: 'https://ikeronx.github.io/best_friends_save_them_all_email/',
+        description: "Designed and built a promotional email for the non-profit organization, Best Friends Animal Society using HTML and CSS.",
+        image: "https://64.media.tumblr.com/18ccbe5c4109b4afacbca5aa696b5da2/23d8d19cccbfb323-4b/s2048x3072/e25b3718a9f1c13b44ea73f3ae194c20edd359ba.pnj",
+        tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
+    {
+        id: 2,
         title: "Surge Promo Email",
         type: "Promotional Email",
         figma: 'https://www.figma.com/file/4xH9tVQkQO8VgRlOsJ1jp6/Surge-Promotional-Email?node-id=0%3A1&t=3UHdxOKNJOFbrnxy-0',
@@ -33,7 +32,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 5,
+        id: 3,
         title: "Starto Newsletter",
         type: "Newsletter Email",
         figma: 'https://www.figma.com/file/IKOgA0H2RGA6TFnX1sbH5k/Starto-Newsletter?node-id=0%3A1&t=nqGixhKoNKQFdchs-0',
@@ -44,7 +43,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 6,
+        id: 4,
         title: "Shiprocket Transactional Email",
         type: "Transactional Email",
         figma: 'https://www.figma.com/file/7WaYXqOEuXtF8G3stPxfeY/Shiprocket-Transtional-Email?node-id=0%3A1&t=XRfto6csERBKtipO-0',
@@ -54,4 +53,15 @@ export const data = [
         image: "https://64.media.tumblr.com/d02139b471cd8ee80513d6f5da267020/90d475a98908db99-a9/s1280x1920/27e9229a60e544e93d87962906647d2927778fac.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
+    {
+        id: 5,
+        title: "Trips Ahoy!",
+        type: "web app",
+        github: "https://github.com/ikeronx/trips_ahoy",
+        demo: 'https://ikeronx.github.io/trips_ahoy/',
+        description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
+        `,
+        image: "https://64.media.tumblr.com/cc37978581d3b89a010968761cc68b23/122f8e6bf9464884-3d/s1280x1920/9afb05b9f4956465ae131c4b8f5801ebbda68221.pnj",
+        tools: ['HTML5', 'CSS3', 'JavaScript ES6+', 'Leaflet Library', 'ArcGis Enterprise', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
+    }
 ];
