@@ -16,7 +16,7 @@ const Card = (props) => {
                         <div> 
                             <a className="card__location--link card__location--link--pad" href={props.demo} target="_blank">LIVE SITE &rarr;</a>
                             <a className="card__location--link card__location--link--pad" href={props.github} target="_blank">CODE &rarr;</a> 
-                            <a className="card__location--link" href={props.figma} target="_blank">FIGMA MOCKUP &rarr;</a>
+                            <a className="card__location--link" href={props.figma} target="_blank">FIGMA Template &rarr;</a>
                         </div>
 
 
