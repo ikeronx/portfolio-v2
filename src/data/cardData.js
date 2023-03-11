@@ -13,7 +13,7 @@ export const data = [
         id: 1,
         title: "Netflix Promo Email",
         type: "Promotional Email",
-        github: "https://github.com/ikeronx/surge_promo_email",
+        github: "https://github.com/ikeronx/netflix_promo_email",
         demo: 'https://ikeronx.github.io/surge_promo_email/',
         description: "Netflix promotional email created using HTML and CSS.",
         image: "https://64.media.tumblr.com/1904a0e4b4e0acc02e6c45b25c9dc77c/a1fea43f5e4336ff-7a/s2048x3072/846b3a6570a8c814b6dd7cbcbbb2997de572e74c.pnj",
