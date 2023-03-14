@@ -32,6 +32,17 @@ export const data = [
     },
     {
         id: 3,
+        title: "NYC Peace Corps Association Invitational Email",
+        type: "Invitational Email",
+        figma: 'https://www.figma.com/file/YyArrVn1oHzM6nFJWiCyHc/NYCPCA?node-id=0%3A1&t=vXp8VE4yb19rrX5C-0',
+        github: "https://github.com/ikeronx/nyc_peace_corps_email_portfolio",
+        demo: 'https://ikeronx.github.io/nyc_peace_corps_email_portfolio/',
+        description: "Designed and built an email template for the New York City Peace Corps Association based on their visual guidelines",
+        image: "https://64.media.tumblr.com/d8f57de542638cca9d0c2647d08da6b8/8c58c9a3a8cd94a9-6f/s1280x1920/fc989c7bf8ef7f34f012ea33c15bd8b892ac6d57.pnj",
+        tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
+    {
+        id: 4,
         title: "Starto Newsletter",
         type: "Newsletter Email",
         figma: 'https://www.figma.com/file/IKOgA0H2RGA6TFnX1sbH5k/Starto-Newsletter?node-id=0%3A1&t=nqGixhKoNKQFdchs-0',
@@ -42,7 +53,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 4,
+        id: 5,
         title: "Shiprocket Transactional Email",
         type: "Transactional Email",
         figma: 'https://www.figma.com/file/7WaYXqOEuXtF8G3stPxfeY/Shiprocket-Transtional-Email?node-id=0%3A1&t=XRfto6csERBKtipO-0',
@@ -53,7 +64,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 5,
+        id: 6,
         title: "Trips Ahoy!",
         type: "web app",
         github: "https://github.com/ikeronx/trips_ahoy",
