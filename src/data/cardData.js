@@ -32,6 +32,16 @@ export const data = [
     },
     {
         id: 3,
+        title: "Hims Promo Email",
+        type: "Promotional Email",
+        github: "https://github.com/ikeronx/hims_email",
+        demo: 'https://ikeronx.github.io/hims_email/',
+        description: "Hims promotional email created using HTML and CSS.",
+        image: "https://64.media.tumblr.com/f17ead34b28fc6cbcfe0b6e2598db86e/d1c4ef0e0052d3b7-61/s2048x3072/7777d2da6652432c456aa0bbaf4a590135f71389.pnj",
+        tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
+    {
+        id: 4,
         title: "Starto Newsletter",
         type: "Newsletter Email",
         figma: 'https://www.figma.com/file/IKOgA0H2RGA6TFnX1sbH5k/Starto-Newsletter?node-id=0%3A1&t=nqGixhKoNKQFdchs-0',
@@ -42,7 +52,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 4,
+        id: 5,
         title: "Shiprocket Transactional Email",
         type: "Transactional Email",
         figma: 'https://www.figma.com/file/7WaYXqOEuXtF8G3stPxfeY/Shiprocket-Transtional-Email?node-id=0%3A1&t=XRfto6csERBKtipO-0',
