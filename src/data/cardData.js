@@ -37,7 +37,7 @@ export const data = [
         github: "https://github.com/ikeronx/hims_email",
         demo: 'https://ikeronx.github.io/hims_email/',
         description: "Hims promotional email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/f17ead34b28fc6cbcfe0b6e2598db86e/d1c4ef0e0052d3b7-61/s2048x3072/7777d2da6652432c456aa0bbaf4a590135f71389.pnj",
+        image: "https://64.media.tumblr.com/5ab30cdf8904261e88a1f7b078ecd674/dab73f467bb833dc-e3/s2048x3072/86ee11eb0bf601666ea51f63d7fa386a62850050.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
