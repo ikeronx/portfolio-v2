@@ -22,6 +22,16 @@ export const data = [
     },
     {
         id: 2,
+        title: "Austin Eastciders Promo Email",
+        type: "Promotional Email",
+        github: "https://github.com/ikeronx/austin_eastciders_email",
+        demo: 'https://ikeronx.github.io/austin_eastciders_email/',
+        description: "Austin Eastciders promotional email created using HTML and CSS.",
+        image: "https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/1bb85faa-11ff-fa0a-49ab-a23f765787f1.gif",
+        tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
+    {
+        id: 3,
         title: "Netflix Promo Email",
         type: "Promotional Email",
         github: "https://github.com/ikeronx/netflix_promo_email",
@@ -31,7 +41,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 3,
+        id: 4,
         title: "Hims Promo Email",
         type: "Promotional Email",
         github: "https://github.com/ikeronx/hims_email",
@@ -41,7 +51,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 4,
+        id: 5,
         title: "Starto Newsletter",
         type: "Newsletter Email",
         figma: 'https://www.figma.com/file/IKOgA0H2RGA6TFnX1sbH5k/Starto-Newsletter?node-id=0%3A1&t=nqGixhKoNKQFdchs-0',
@@ -52,7 +62,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 5,
+        id: 6,
         title: "Shiprocket Transactional Email",
         type: "Transactional Email",
         figma: 'https://www.figma.com/file/7WaYXqOEuXtF8G3stPxfeY/Shiprocket-Transtional-Email?node-id=0%3A1&t=XRfto6csERBKtipO-0',
