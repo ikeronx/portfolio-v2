@@ -1,17 +1,6 @@
 export const data = [
     {
         id: 0,
-        title: "Trips Ahoy!",
-        type: "web app",
-        github: "https://github.com/ikeronx/trips_ahoy",
-        demo: 'https://ikeronx.github.io/trips_ahoy/',
-        description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
-        `,
-        image: "https://64.media.tumblr.com/cc37978581d3b89a010968761cc68b23/122f8e6bf9464884-3d/s1280x1920/9afb05b9f4956465ae131c4b8f5801ebbda68221.pnj",
-        tools: ['HTML5', 'CSS3', 'JavaScript ES6+', 'Leaflet Library', 'ArcGis Enterprise', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
-    },
-    {
-        id: 1,
         title: "Déjà Brew",
         type: "Website",
         github: "https://github.com/ikeronx/deja_brew",
@@ -21,13 +10,23 @@ export const data = [
         tools: ['', '', 'HTML5', 'CSS3', 'Javascript ES6+', 'Leaflet', 'ArcGis Enterprise', 'Fslightbox', '', ''],
     },
     {
-        id: 2,
+        id: 1,
         title: "Netflix Promo Email",
         type: "Promotional Email",
         github: "https://github.com/ikeronx/netflix_promo_email",
         demo: 'https://ikeronx.github.io/surge_promo_email/',
         description: "Netflix promotional email created using HTML and CSS.",
         image: "https://64.media.tumblr.com/1904a0e4b4e0acc02e6c45b25c9dc77c/a1fea43f5e4336ff-7a/s2048x3072/846b3a6570a8c814b6dd7cbcbbb2997de572e74c.pnj",
+        tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
+    {
+        id: 2,
+        title: "Filmsupply Promo Email",
+        type: "Promotional Email",
+        github: "https://github.com/ikeronx/filmsupply_email",
+        demo: 'https://ikeronx.github.io/filmsupply_email/',
+        description: "Netflix promotional email created using HTML and CSS.",
+        image: "https://64.media.tumblr.com/d4bfee799bbc39b85ff8860b93b5dfff/e14a8943f3a51d36-3c/s2048x3072/4ffdd0fd7c55d94111b51f2780e2a5fadb7edaca.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
@@ -81,5 +80,16 @@ export const data = [
         description: "Transactional email created using HTML and CSS.",
         image: "https://64.media.tumblr.com/d02139b471cd8ee80513d6f5da267020/90d475a98908db99-a9/s1280x1920/27e9229a60e544e93d87962906647d2927778fac.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
+    {
+        id: 8,
+        title: "Trips Ahoy!",
+        type: "web app",
+        github: "https://github.com/ikeronx/trips_ahoy",
+        demo: 'https://ikeronx.github.io/trips_ahoy/',
+        description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
+        `,
+        image: "https://64.media.tumblr.com/cc37978581d3b89a010968761cc68b23/122f8e6bf9464884-3d/s1280x1920/9afb05b9f4956465ae131c4b8f5801ebbda68221.pnj",
+        tools: ['HTML5', 'CSS3', 'JavaScript ES6+', 'Leaflet Library', 'ArcGis Enterprise', 'REST countries API', 'Geoapify API', 'OpenWeatherMap API', 'Unsplash API', 'Web Storage API'],
     },
 ];
