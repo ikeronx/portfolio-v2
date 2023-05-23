@@ -33,10 +33,10 @@ export const data = [
         id: 3,
         title: "Austin Eastciders Promo Email",
         type: "Promotional Email",
-        github: "https://github.com/ikeronx/austin_eastciders_email_2",
-        demo: 'https://ikeronx.github.io/austin_eastciders_email_2/',
+        github: "https://github.com/ikeronx/austin_eastciders_3",
+        demo: 'https://ikeronx.github.io/austin_eastciders_3/',
         description: "Austin Eastciders promotional email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/7050623bb057fc1db1745a91297227c8/d168f63d2b3563d7-44/s2048x3072/739715ecbb3a27b97ce11dc29d135fc19e7ab737.pnj",
+        image: "https://64.media.tumblr.com/52cd22c7d879efb2c83633206847c227/7955a5967baa6e34-a8/s2048x3072/1825aa88ee95b25d10023026cadf8210cb33e626.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
