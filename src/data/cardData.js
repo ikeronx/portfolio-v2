@@ -71,6 +71,17 @@ export const data = [
     },
     {
         id: 7,
+        title: "Starto Newsletter",
+        type: "Newsletter Email",
+        figma: 'https://www.figma.com/file/IKOgA0H2RGA6TFnX1sbH5k/Starto-Newsletter?node-id=0%3A1&t=nqGixhKoNKQFdchs-0',
+        github: "https://github.com/ikeronx/starto_newsletter_email",
+        demo: 'https://ikeronx.github.io/starto_newsletter_email/',
+        description: "Newsletter email created using HTML and CSS.",
+        image: "https://64.media.tumblr.com/133bc3ed94a12e4b0581f3fe5f381c5c/f82e7488b026faf9-7a/s1280x1920/5b21a60110d88a9d83c213cfecc58c7d6d3e8bd1.pnj",
+        tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
+    },
+    {
+        id: 8,
         title: "Filmsupply Newsletter Email",
         type: "Newsletter Email",
         github: "https://github.com/ikeronx/filmsupply_email",
@@ -80,7 +91,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 8,
+        id: 9,
         title: "Shiprocket Transactional Email",
         type: "Transactional Email",
         figma: 'https://www.figma.com/file/7WaYXqOEuXtF8G3stPxfeY/Shiprocket-Transtional-Email?node-id=0%3A1&t=XRfto6csERBKtipO-0',
@@ -91,7 +102,7 @@ export const data = [
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
-        id: 9,
+        id: 10,
         title: "Trips Ahoy!",
         type: "web app",
         github: "https://github.com/ikeronx/filmsupply_email_2",
