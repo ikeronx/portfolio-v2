@@ -76,7 +76,7 @@ export const data = [
         github: "https://github.com/ikeronx/filmsupply_email",
         demo: 'https://ikeronx.github.io/filmsupply_email_2/',
         description: "Filmsupply newsletter email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/9a0a5ea14b7313055c7f13d63c332bb0/120f2ce001e53573-66/s2048x3072/af10d47b975e1c243ef06d19af34f93bfc95feb7.pnj",
+        image: "https://64.media.tumblr.com/05197ef942ef67c20a2d507802a10634/9b0625ee7faeb204-a5/s2048x3072/8a68b6e72f6db3f40a543999db8cdbabbdcec519.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
