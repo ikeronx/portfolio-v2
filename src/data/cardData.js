@@ -36,7 +36,7 @@ export const data = [
         github: "https://github.com/ikeronx/filmsupply_email",
         demo: 'https://ikeronx.github.io/filmsupply_email/',
         description: "Netflix promotional email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/d4bfee799bbc39b85ff8860b93b5dfff/e14a8943f3a51d36-3c/s2048x3072/4ffdd0fd7c55d94111b51f2780e2a5fadb7edaca.pnj",
+        image: "https://64.media.tumblr.com/a1c65e1d1314790eee1173dc2f19c16e/120f2ce001e53573-8b/s2048x3072/30d01bb611743410377b30aaf1444b6b78b69747.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
@@ -71,13 +71,12 @@ export const data = [
     },
     {
         id: 7,
-        title: "Starto Newsletter",
+        title: "Filmsupply Newsletter Email",
         type: "Newsletter Email",
-        figma: 'https://www.figma.com/file/IKOgA0H2RGA6TFnX1sbH5k/Starto-Newsletter?node-id=0%3A1&t=nqGixhKoNKQFdchs-0',
-        github: "https://github.com/ikeronx/starto_newsletter_email",
-        demo: 'https://ikeronx.github.io/starto_newsletter_email/',
-        description: "Newsletter email created using HTML and CSS.",
-        image: "https://64.media.tumblr.com/133bc3ed94a12e4b0581f3fe5f381c5c/f82e7488b026faf9-7a/s1280x1920/5b21a60110d88a9d83c213cfecc58c7d6d3e8bd1.pnj",
+        github: "https://github.com/ikeronx/filmsupply_email",
+        demo: 'https://ikeronx.github.io/filmsupply_email_2/',
+        description: "Filmsupply newsletter email created using HTML and CSS.",
+        image: "https://64.media.tumblr.com/9a0a5ea14b7313055c7f13d63c332bb0/120f2ce001e53573-66/s2048x3072/af10d47b975e1c243ef06d19af34f93bfc95feb7.pnj",
         tools: ['', '', '', '', 'HTML5', 'CSS3', ''],
     },
     {
@@ -95,8 +94,8 @@ export const data = [
         id: 9,
         title: "Trips Ahoy!",
         type: "web app",
-        github: "https://github.com/ikeronx/trips_ahoy",
-        demo: 'https://ikeronx.github.io/trips_ahoy/',
+        github: "https://github.com/ikeronx/filmsupply_email_2",
+        demo: 'https://ikeronx.github.io/filmsupply_email_2/',
         description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
         `,
         image: "https://64.media.tumblr.com/cc37978581d3b89a010968761cc68b23/122f8e6bf9464884-3d/s1280x1920/9afb05b9f4956465ae131c4b8f5801ebbda68221.pnj",
