@@ -82,8 +82,8 @@ export const data = [
     },
     {
         id: 8,
-        title: "Filmsupply Newsletter Email",
-        type: "Newsletter Email",
+        title: "Filmsupply Promotional Email",
+        type: "Promotional Email",
         github: "https://github.com/ikeronx/filmsupply_email",
         demo: 'https://ikeronx.github.io/filmsupply_email_2/',
         description: "Filmsupply newsletter email created using HTML and CSS.",
