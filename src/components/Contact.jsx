@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
           <div className="contact__para">
             <p>Coded & Designed by Keron Williams, 2023</p>
-            <p>Built with React & Chakra.</p>
+            <p>Built with React & Chakra UI.</p>
         </div>
     </section>
   )

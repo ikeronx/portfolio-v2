@@ -208,11 +208,22 @@ a {
   font-size:1rem;
 }
 
+.hero-heart{
+  font-size: 1.2rem;
+  /* filter: invert(73%) sepia(19%) saturate(5069%) hue-rotate(186deg) brightness(111%) contrast(103%); */
+}
+
+
 @media screen and (min-width: 40em) {
   .hero-heading-sub{
     font-size:1.6rem;
   }
+  .hero-heart{
+  font-size: 2rem;
+  /* filter: invert(73%) sepia(19%) saturate(5069%) hue-rotate(186deg) brightness(111%) contrast(103%); */
 }
+}
+
 
 .hero__btns{
   padding-top: 60px;
