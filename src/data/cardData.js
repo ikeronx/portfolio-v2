@@ -6,7 +6,7 @@ export const data = [
     github: "https://github.com/ikeronx/deja_brew",
     demo: "https://ikeronx.github.io/deja_brew/",
     description:
-      "Déjà Brew is a contemporary cafe website which features a full tab menu, testimonial carousel , reservation functionality and a custom map.",
+      "A custom website built for a coffee shop using HTML, CSS, and JavaScript. Implemented custom Mapbox map for seamless location tracking, enhancing overall user experience.",
     image:
       "https://64.media.tumblr.com/6df347d8120fb7e640900021b11153e4/8b2f498d287126ce-88/s2048x3072/956c0de4474ff49cfe14351f2bb7967fc1d488a6.pnj",
     tools: [
@@ -28,7 +28,7 @@ export const data = [
     type: "web app",
     github: "https://ikeronx.github.io/trips_ahoy/",
     demo: "https://ikeronx.github.io/trips_ahoy/",
-    description: `Trips Ahoy! is a travel companion app consuming multiple RESTful APIs that allow users to perform CRUD operations to plan and organize trips and document the experience they had from a trip.
+    description: `A dynamic travel web app for seamless planning, and real-time insights. Boosted user experience with advanced features like routing, address search, and dynamic data integration from ArcGIS Enterprise.
         `,
     image:
       "https://64.media.tumblr.com/cc37978581d3b89a010968761cc68b23/122f8e6bf9464884-3d/s1280x1920/9afb05b9f4956465ae131c4b8f5801ebbda68221.pnj",
