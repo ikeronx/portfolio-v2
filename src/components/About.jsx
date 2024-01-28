@@ -104,7 +104,7 @@ const About = () => {
             </div> */}
 
             <div className="netlify-box end-box">
-              <span style={{ marginLeft: "0.6rem" }}>
+              <span style={{ marginLeft: "0.7rem" }}>
                 <a href="https://mailchimp.com/" target="_blank">
                   <img
                     className="mailchimp-img icon--clr"
@@ -113,10 +113,10 @@ const About = () => {
                   />
                 </a>
               </span>
-              <p style={{ marginLeft: "01rem" }}>Shopify</p>
+              <p style={{ marginLeft: "-1rem" }}>Shopify Hydrogen</p>
             </div>
             <div className="netlify-box">
-              <span style={{ paddingLeft: "0.9rem" }}>
+              <span style={{ paddingLeft: "1.1rem" }}>
                 <a
                   href="https://business.adobe.com/products/marketo/adobe-marketo.html"
                   target="_blank"
@@ -128,7 +128,7 @@ const About = () => {
                   />
                 </a>
               </span>
-              <p style={{ marginLeft: "0.3rem" }}>Tailwind</p>
+              <p style={{ marginLeft: "0.7rem" }}>Tailwind</p>
             </div>
 
             <div>
